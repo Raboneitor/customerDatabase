@@ -1,16 +1,22 @@
 body{
     background-color: #d9e4f5;
-    background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+    background-image: linear-gradient(315deg,#d9e4f5 0%, #f5e3e6 74%,#fff 95% );
     font-family: 'Montserrat', sans-serif;
 }
 h1{
     text-align: center;
     font-size: 3.5rem;
-    color: #444;
+    color: #333;
     text-shadow: 10px 11px 15px #9f9f9f,
                  -6px -8px 12px #ffffff,
                  -3px 0 0 #000,
                   2px 0 0 white;
+}
+h3{
+    text-align: center;
+    background-color: rgba(0,0,0,.05);
+    font-size: 2rem;
+    text-transform: uppercase;
 }
 .mainDivision{
     display: flex;
@@ -32,6 +38,7 @@ h1{
 }
 .buttonMenu{
     text-align: center;
+    font-size: 1.2rem;
     width: 150px;
     height: 150px;
     padding: 10px;
@@ -43,7 +50,8 @@ h1{
     cursor: pointer;
 }
 .buttonMenu:hover{
-    background-color: rgba(0, 0, 0, 0.05);
+    /*background-color: rgba(0, 0, 0, 0.05);*/
+    background-color: lightgray;
     color:white
 }
 .iconInsideButton{
@@ -59,9 +67,29 @@ h1{
 }
 
 .hidePanel{
-    display:none;
+    display: none;
 }
 .clicked{
-    background-color: rgba(0, 0, 0, 0.05);
-    color: white;
+    outline: 10px solid gray;
+}
+.userPanel{
+    border-bottom: 1px solid gray;
+    padding: 20px;
+}
+input[type="text"]{
+    width: 85%;
+    height: 35px;
+    margin: 10px;
+}
+.formulario{
+    text-align: center;
+}
+.whenFind{
+    color: #333;
+}
+.whenAdd{
+    color: #50BB2D;
+}
+.whenDelete{
+    color: #DE2F2F;
 }

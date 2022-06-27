@@ -26,24 +26,68 @@
                     <img class="iconInsideButton" src="assets/icons/lupa.png" alt="">
                 </div>
                 <div class="buttonMenu" id="showAllUsers">
-                    <p>Todos los usuarios</p>
+                    <p>Venta</p>
+                    <img class="iconInsideButton" src="assets/icons/dinero.png" alt="">
                 </div>    
             </div>
             <hr>
+            <!--      USER SUBMENU       -->
             <div class="buttonList userPanel hidePanel" id="userPanel">
                 <div id="addUserButton" class="buttonMenu" id="createUser">
                     <p>Nuevo usuario</p>
-                    <img class="iconInsideButton" src="assets/icons/add-user.png" alt="">
+                    <img class="iconInsideButton" src="assets/icons/add_user_color.png" alt="">
                 </div>
                 <div id="removeUserButton" class="buttonMenu" id="createUser">
                     <p>Borrar usuario</p>
-                    <img class="iconInsideButton" src="assets/icons/remove-user.png" alt="">
+                    <img class="iconInsideButton" src="assets/icons/delete_user_color.png" alt="">
                 </div>
                 <div id="searchUserButton" class="buttonMenu" id="createUser">
                     <p>Buscar usuario</p>
-                    <img class="iconInsideButton" src="assets/icons/search-user.png" alt="">
+                    <img class="iconInsideButton" src="assets/icons/find_user_color.png" alt="">
                 </div>            
             </div>
+            <!--      FIND SUBMENU       -->
+            <div class="buttonList userPanel hidePanel" id="findPanel">
+                <div id="moreMoneyCustomers" class="buttonMenu" id="createUser">
+                    <p>Más dinero</p>
+                    <img class="iconInsideButton" src="assets/icons/price-tag.png" alt="">
+                </div>
+                <div id="removeUserButton" class="buttonMenu" id="createUser">
+                    <p>Más compras</p>
+                    <img class="iconInsideButton" src="assets/icons/estrellaAmarilla.png" alt="">
+                </div>
+                <div id="searchUserButton" class="buttonMenu" id="createUser">
+                    <p>Proximamente</p>
+                    <img class="iconInsideButton" src="assets/icons/working-man.png" alt="">
+                </div>            
+            </div>
+            
+            <!--      ADD USER       -->
+            <div class="formulario hidePanel" id="formularioAdd">
+                <h3 id="whenAdd" class="whenAdd">Añadir usuario</h3>
+                <input type="text" placeholder="Nombre" name="Nombre" id="name">
+                <input type="text" placeholder="Apellido" name="Nombre" id="surname">
+                <input type="text" placeholder="Teléfono" name="Nombre" id="customerPhone">
+            </div>
+
+            <!--      REMOVE USER       -->
+            <div class="formulario hidePanel" id="formularioRemove">
+                <h3 id="whenDelete" class="whenDelete ">Borrar usuario</h3>
+                <input type="text" placeholder="ID de cliente" name="Nombre" id="customerNumber">
+                <input type="text" placeholder="Nombre" name="Nombre" id="name">
+                <input type="text" placeholder="Apellido" name="Nombre" id="surname">
+                <input type="text" placeholder="Teléfono" name="Nombre" id="customerPhone">
+            </div>
+
+            <!--      FIND USER       -->
+            <div class="formulario hidePanel" id="formularioFind">
+                <h3 id="whenFind" class="whenFind ">Buscar usuario</h3>
+                <input type="text" placeholder="ID de cliente" name="Nombre" id="customerNumber">
+                <input type="text" placeholder="Nombre" name="Nombre" id="name">
+                <input type="text" placeholder="Apellido" name="Nombre" id="surname">
+                <input type="text" placeholder="Teléfono" name="Nombre" id="customerPhone">
+            </div>
+
         </div>
         <div class="rightSide">
             <div class="mainScreen">
